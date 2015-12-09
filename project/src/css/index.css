@@ -1,0 +1,97 @@
+﻿@charset "utf-8";
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+html{color:#000;overflow-y:scroll;overflow:-moz-scrollbars}
+body,button,input,select,textarea{font:12px arial}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em{font-style:normal}
+small{font-size:12px}
+ol,ul{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+img{-ms-interpolation-mode:bicubic}
+textarea{resize:vertical}
+.left{float:left}
+.right{float:right}
+.overflow{overflow:hidden}
+.hide{display:none}
+.block{display:block}
+.inline{display:inline}
+.red{color:red;}
+.green{color:green;}
+button,label{cursor:pointer}
+.clearfix:after{content:'\20';display:block;height:0;clear:both}
+.clearfix{zoom:1}
+.clear{clear:both;height:0;line-height:0;font-size:0;visibility:hidden;overflow:hidden}
+.wordwrap{word-break:break-all;word-wrap:break-word}
+.s-yahei{font-family:arial,'Microsoft Yahei','微软雅黑'}
+pre.wordwrap{white-space:pre-wrap}
+body{text-align:center}
+body,form{position:relative;z-index:0}
+td{text-align:left}
+img{border:0}
+
+ /*overflow:hidden;white-space: nowrap;text-overflow: ellipsis;*/
+/*background:  url("../images/icon_bg.png?_sp") no-repeat scroll 0 0;*/
+
+
+.tabTitle{ position:relative; float:left; height:38px;  width:100%; border-bottom: 2px solid #2f5895; z-index:11;}
+.tabTitle .more {float: right;margin-right: 10px;margin-top: 15px;}
+.tabs { float:left; position:relative; top:2px;text-align:center; z-index:2; height:35px; line-height:35px; font-size :18px; font-family: 微软雅黑;  }
+.tabs li{cursor:pointer;position: relative;top:-1px;z-index: 2;margin-left: -1px;float: left;padding: 0px 10px 0px 10px;border-top: 1px solid #BBD4E8;border-left: 1px solid #BBD4E8;border-right: 1px solid #BBD4E8;display: block;height: 36px;font-size: 18px;font-family: 微软雅黑;}
+.tabs li a,.tabs li a:link{color:#000;}
+.tabs .current{z-index: 3;border: 1px solid #2F5895;border-bottom: none;position: relative;top:-1px;margin-left:0; background-color: #fff;height: 38px;_height: 39px;_line-height: 33px;_top: 0px;_margin-top: -2px;}
+.tabList {float:left; width:100%;overflow:hidden;border-bottom:1px solid #BBD4E8;}
+.tabList .subTit {margin:2px 0 0;  overflow:hidden;border-bottom:1px solid #BBD4E8;_float:left;}
+.tabList ul li {text-align:center; height:29px; line-height:29px; float:left; _display:inline; overflow:hidden;}
+.tabList ul li .no{font-style:italic; font-size:14px; margin:0 10px;  }
+.tabList .subTit ul li {height:29px;overflow:hidden;line-height:29px;color:#000;}
+.tabList .summary p{ line-height:18px;height:18px; } 
+.tabList .subTit ul .tl{text-align:left;}
+.tabList .data  ul{ overflow:hidden;}
+.tabList .data .bg {background-color: #FAFAFD;}
+.tabList dl.custom{ border-bottom:1px solid #e4f3ff; padding:6px 5px;line-height:23px; overflow:hidden; height:100%;}
+.tabList dl.custom dt{font-weight:bold; width:65px; float:left; }
+.tabList dl.custom dd{ float:left;width:200px;overflow:hidden;}
+.tabList dl.custom dd .con1{ float:left;} 
+.tabList dl.custom dd .con2{ float:right;} 
+
+
+
+
+.s-skin-hasbg .top-feed .icon-mask{
+    background:none;
+    background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0.5)));
+    background-image:-moz-linear-gradient(rgba(0,0,0,0.5) 0,rgba(0,0,0,0.5) 100%);
+    background-image:-ms-linear-gradient(rgba(0,0,0,0.5) 0,rgba(0,0,0,0.5) 100%);
+    background-image:-o-linear-gradient(rgba(0,0,0,0.5) 0,rgba(0,0,0,0.5) 100%);
+    background-image:linear-gradient(rgba(0,0,0,0.5) 0,rgba(0,0,0,0.5) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000);margin:0}
+.pics {
+	display: block;
+	height: 41px;
+	width: 151px;
+	background: url(../images/logo.png?_sp) no-repeat
+}
+.ie6 { width:540px; height:258px;
+       filter: progid:DXImageTransform.Microsoft.AlphaImageLoader('../images/logo_white_fe6da1ec.png');
+	/*background-image: url(../images/logo_white_fe6da1ec.png?_sp);
+    background-color:#333;
+    _background-image:none;*/
+}
+.png{
+_background: url(../images/logo_white_fe6da1ec.png) no-repeat !important; 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="../images/logo_white_fe6da1ec.png");
+background:none;
+width:118px;height:133px;
+}
+
+
+
+
+
+
+

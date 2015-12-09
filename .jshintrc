@@ -1,0 +1,45 @@
+{
+    "globals": {
+        "jasmine": false,
+        "spyOn": false,
+        "it": false,
+        "console": false,
+        "describe": false,
+        "expect": false,
+        "beforeEach": false,
+        "waits": false,
+        "waitsFor": false,
+        "runs": false
+    },
+    //定义全局变量
+    "node" : true,
+    "es5": false,
+    "browser" : true,
+
+    "boss": false,
+    //循环或者条件语句必须使用花括号包围
+    "curly": true,
+    "debug": false,
+    "devel": false,
+    //强制===
+    "eqeqeq": false,
+    //检测evil语句
+    "evil": false,
+    "forin": false,
+    "immed": false,
+    "laxbreak": false,
+    //构造器函数首字母大写
+    "newcap": true,
+    "noarg": true,
+    "noempty": false,
+    "nonew": false,
+    "nomen": false,
+    "onevar": true,
+    "plusplus": false,
+    "regexp": false,
+    "undef": true,
+    "sub": true,
+    "strict": false,
+    "white": true,
+    "unused": false
+}
